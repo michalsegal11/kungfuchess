@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+# pytest
+.pytest_cache/
+# IDEs
+.vscode/
+.idea/
+# Audio / build artefacts
+snd/*.wav
