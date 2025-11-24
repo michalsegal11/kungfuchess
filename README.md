@@ -1,5 +1,5 @@
 
-````markdown
+````
 # Kungfu Chess – Online Multiplayer (Python)
 
 This project is an extended version of the classic **Kungfu Chess** idea,
@@ -65,9 +65,6 @@ project-root/
 ├─ README.md
 └─ .gitignore
 ````
-
-> Note: The exact structure may vary slightly depending on how you organize
-> your `core`, `server` and `client` packages, but the idea is the same.
 
 ---
 
