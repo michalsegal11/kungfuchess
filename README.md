@@ -1,5 +1,4 @@
 
-````
 # Kungfu Chess – Online Multiplayer (Python)
 
 This project is an extended version of the classic **Kungfu Chess** idea,
@@ -12,7 +11,6 @@ The goal is to allow multiple players to play real-time chess-like matches with
 smooth physics, animations, and clear keyboard controls, and to support multiple
 independent games in parallel.
 
----
 
 ## Features
 
@@ -35,13 +33,12 @@ independent games in parallel.
   - More visual effects and sounds.
   - Automated tests for physics, moves and events.
 
----
+
 
 ## Project Structure
 
 The core layout is:
 
-```text
 project-root/
 ├─ client/
 │  ├─ main.py           # Pygame main loop (client)
@@ -64,9 +61,8 @@ project-root/
 ├─ snd/                 # Sound effects (optional)
 ├─ README.md
 └─ .gitignore
-````
 
----
+
 
 ## Requirements
 
@@ -88,7 +84,6 @@ or, if you do not have a `requirements.txt` yet:
 pip install websockets pygame
 ```
 
----
 
 ## Running the Application
 
@@ -202,13 +197,12 @@ pytest tests/
 
 You can organize tests by module:
 
-```text
 tests/
 ├─ test_board.py
 ├─ test_physics.py
 ├─ test_pieces.py
 └─ test_game_flow.py
-```
+
 
 ---
 
