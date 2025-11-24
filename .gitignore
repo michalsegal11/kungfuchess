@@ -1,11 +1,42 @@
+# ----------------------------
+# Python bytecode / cache
+# ----------------------------
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+venv/
 .venv/
 env/
-# pytest
-.pytest_cache/
-# IDEs
+.env/
+
+# ----------------------------
+# Build / packaging
+# ----------------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------------
+# IDE / editor configs
+# ----------------------------
 .vscode/
 .idea/
-# Audio / build artefacts
-snd/*.wav
+*.code-workspace
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs / temp
+# ----------------------------
+*.log
+*.tmp
