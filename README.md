@@ -39,6 +39,7 @@ independent games in parallel.
 
 The core layout is:
 
+```text
 project-root/
 ├─ client/
 │  ├─ main.py           # Pygame main loop (client)
