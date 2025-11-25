@@ -63,7 +63,7 @@ project-root/
 ├─ README.md
 └─ .gitignore
 
-
+```
 
 ## Requirements
 
@@ -198,16 +198,13 @@ pytest tests/
 
 You can organize tests by module:
 
+```text
+
 tests/
 ├─ test_board.py
 ├─ test_physics.py
 ├─ test_pieces.py
 └─ test_game_flow.py
 
-
----
-
-## License
-
-Add your preferred license here (MIT, Apache-2.0, etc.).
+```
 
